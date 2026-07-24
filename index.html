@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anant Sharma — Backend Engineer &amp; Competitive Programmer</title>
+<meta name="description" content="Portfolio of Anant Sharma — B.Tech Mathematics &amp; Computing student, backend engineer, and competitive programmer.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- background grid -->
+<div class="bg-grid" aria-hidden="true"></div>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#top" class="nav-mark">AS<span class="nav-mark-dot">.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navList" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-list" id="navList">
+      <li><a href="#about" data-idx="00"><span class="idx">[00]</span> About</a></li>
+      <li><a href="#work" data-idx="01"><span class="idx">[01]</span> Work</a></li>
+      <li><a href="#journey" data-idx="02"><span class="idx">[02]</span> Journey</a></li>
+      <li><a href="#contact" data-idx="03"><span class="idx">[03]</span> Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow reveal">B.Tech Mathematics &amp; Computing — PEC Chandigarh, '28</p>
+        <h1 class="hero-title reveal">
+          Anant<br>Sharma<span class="cursor-blink">_</span>
+        </h1>
+        <p class="hero-sub reveal">
+          I write backends the way I write proofs — every edge case accounted for,
+          every state reconciled. Ledger systems by day, contest problems by night.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#work" class="btn btn-primary">See the work</a>
+          <a href="mailto:anantsharma.bt24mc@pec.edu.in" class="btn btn-ghost">Say hello</a>
+        </div>
+        <dl class="hero-stats reveal">
+          <div class="stat">
+            <dt>CGPA</dt>
+            <dd>9.04<span>/10</span></dd>
+          </div>
+          <div class="stat">
+            <dt>JEE Main '24</dt>
+            <dd>98.71<span>%ile</span></dd>
+          </div>
+          <div class="stat">
+            <dt>LeetCode</dt>
+            <dd>1610<span> rating</span></dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-graph reveal" role="img" aria-label="Illustrative line graph representing steady growth to a 1610 LeetCode rating over one year of consistent practice">
+        <div class="graph-card">
+          <div class="graph-label">
+            <span>leetcode.log — 500+ solved</span>
+            <span class="graph-dot"></span>
+          </div>
+          <svg viewBox="0 0 480 320" class="graph-svg" aria-hidden="true">
+            <g class="graph-grid">
+              <line x1="0" y1="60" x2="480" y2="60"></line>
+              <line x1="0" y1="120" x2="480" y2="120"></line>
+              <line x1="0" y1="180" x2="480" y2="180"></line>
+              <line x1="0" y1="240" x2="480" y2="240"></line>
+              <line x1="0" y1="300" x2="480" y2="300"></line>
+            </g>
+            <path class="graph-line" d="M10,270 C60,265 90,250 120,235 C160,215 180,210 210,190 C250,165 270,175 300,150 C340,120 360,110 390,80 C420,55 440,50 470,25" />
+            <path class="graph-fill" d="M10,270 C60,265 90,250 120,235 C160,215 180,210 210,190 C250,165 270,175 300,150 C340,120 360,110 390,80 C420,55 440,50 470,25 L470,310 L10,310 Z" />
+          </svg>
+          <div class="graph-foot">
+            <span>rating ~1200</span>
+            <span class="graph-foot-mid">1 year, 500+ problems</span>
+            <span>rating 1610</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-cue reveal" aria-hidden="true">
+      <span>scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT — styled as a proof -->
+  <section class="section proof-section" id="about">
+    <p class="section-eyebrow reveal">[00] About</p>
+    <div class="proof reveal">
+      <h2 class="proof-title">A short proof, in the style I know best.</h2>
+
+      <div class="proof-line">
+        <span class="proof-tag">Given</span>
+        <p>A Mathematics &amp; Computing undergraduate at Punjab Engineering College, Chandigarh (2024–2028),
+          admitted via JEE Main 2024 at the 98.71st percentile, currently holding a 9.04/10 CGPA.</p>
+      </div>
+
+      <div class="proof-line">
+        <span class="proof-tag">To show</span>
+        <p>That mathematical rigor and shipped software are not opposing skills — they compound.</p>
+      </div>
+
+      <div class="proof-line">
+        <span class="proof-tag">Proof</span>
+        <ul class="proof-steps">
+          <li><span class="step-no">1.</span> Designed and built <strong>FinVault</strong>, a secure finance &amp; ledger backend with JWT auth, role-based authorization, and transaction tracking — deployed on Render.</li>
+          <li><span class="step-no">2.</span> Built and deployed <strong>VinylWave</strong> end-to-end — a Spotify-style streaming platform with role-based auth for listeners and artists, media uploads via ImageKit, and a modular MVC API.</li>
+          <li><span class="step-no">3.</span> Qualified for the <strong>Flipkart GRiD 8.0</strong> Coding Assessment after clearing the screening round, and placed <strong>Top 10 of 150+</strong> participants in the PEC-ACM Competitive Programming Contest.</li>
+          <li><span class="step-no">4.</span> Earned an NPTEL Elite Certificate (Top 1%) in Introduction to Machine Learning from IIT Madras — evidence the theory holds up under evaluation.</li>
+          <li><span class="step-no">5.</span> Solved 500+ problems on LeetCode over a year of consistent practice, reaching a 1610 rating, while staying active in the PEC-ACM Student Chapter and middle-distance track.</li>
+        </ul>
+      </div>
+
+      <p class="proof-qed">∎ &nbsp;Q.E.D.</p>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section" id="work">
+    <p class="section-eyebrow reveal">[01] Work</p>
+    <h2 class="section-title reveal">Things I've built and shipped.</h2>
+
+    <div class="projects">
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <h3>FinVault</h3>
+          <span class="complexity-badge">May 2026 – Present</span>
+        </div>
+        <p class="project-desc">A secure backend for a personal finance and ledger management system —
+          built for real transaction tracking, not a demo wallet with fake balances.</p>
+        <ul class="project-tags">
+          <li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>Mongoose</li><li>JWT</li><li>Nodemailer</li>
+        </ul>
+        <ul class="project-points">
+          <li>JWT authentication and role-based authorization protecting every endpoint</li>
+          <li>Ledger-based transaction tracking and account management via RESTful APIs</li>
+          <li>Automated email notifications (Nodemailer) for registration and transaction events; deployed on Render</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/anantsharma108/FinVault" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <h3>VinylWave</h3>
+          <span class="complexity-badge">Jun – Jul 2026</span>
+        </div>
+        <p class="project-desc">A full-stack, Spotify-style music streaming platform with a custom analog/vinyl-themed
+          frontend and a self-built backend — proof that one person can ship something that feels considered end to end.</p>
+        <ul class="project-tags">
+          <li>Node.js</li><li>Express.js</li><li>MongoDB</li><li>JWT</li><li>ImageKit</li><li>MVC</li>
+        </ul>
+        <ul class="project-points">
+          <li>JWT authentication with role-based access for listeners and artists</li>
+          <li>ImageKit integration for media uploads, with modular MVC-structured REST APIs for music, albums, and artists</li>
+          <li>Frontend deployed on GitHub Pages, backend on Render</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://anantsharma108.github.io/vinylwave-frontend" target="_blank" rel="noopener noreferrer">View live →</a>
+        </div>
+      </article>
+
+      <article class="project-card reveal">
+        <div class="project-head">
+          <h3>Wi-Fi Auto-Login Utility</h3>
+          <span class="complexity-badge">Oct – Nov 2024</span>
+        </div>
+        <p class="project-desc">A Python automation tool that resolves recurring Wi-Fi session expirations on a
+          college network by detecting connectivity loss and re-authenticating automatically.</p>
+        <ul class="project-tags">
+          <li>Python</li><li>Requests</li><li>HTTP</li><li>Networking</li><li>Windows Batch Script</li>
+        </ul>
+        <ul class="project-points">
+          <li>Periodic network monitoring paired with HTTP-based login automation</li>
+          <li>Runs on Windows startup for uninterrupted internet access, with zero manual re-login</li>
+        </ul>
+        <div class="project-links">
+          <a href="https://github.com/anantsharma108/automatic_Wifi_Login" target="_blank" rel="noopener noreferrer">View on GitHub →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- JOURNEY / SPLITS -->
+  <section class="section splits-section" id="journey">
+    <p class="section-eyebrow reveal">[02] Journey</p>
+    <h2 class="section-title reveal">Splits, not a straight line.</h2>
+    <p class="splits-intro reveal">Borrowed from the track: a split is a checkpoint time, not a finish.
+      Here's the pace so far.</p>
+
+    <ol class="splits">
+      <li class="split reveal">
+        <span class="split-time">2022–24</span>
+        <div class="split-body">
+          <h3>School — KCM School, Moradabad</h3>
+          <p>96.2% in Class X (2022), then 95.2% in Class XII (2024), building the base for what came next.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">2024</span>
+        <div class="split-body">
+          <h3>Admitted to PEC, Chandigarh</h3>
+          <p>Cleared JEE Main 2024 at the 98.71st percentile and enrolled in B.Tech Mathematics &amp; Computing, joining the PEC-ACM Student Chapter the same year.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">Oct–Nov '24</span>
+        <div class="split-body">
+          <h3>Wi-Fi Auto-Login Utility</h3>
+          <p>Built a Python tool automating campus Wi-Fi re-authentication — first shipped project, still running quietly in the background.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">May '26</span>
+        <div class="split-body">
+          <h3>Top 10 of 150+ — PEC-ACM Contest</h3>
+          <p>Placed Top 10 among 150+ participants in the PEC-ACM Competitive Programming Contest, and started building FinVault.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">Jun–Jul '26</span>
+        <div class="split-body">
+          <h3>Shipped VinylWave</h3>
+          <p>Designed and deployed a full-stack, Spotify-style streaming app — frontend on GitHub Pages, backend on Render.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">Jul '26</span>
+        <div class="split-body">
+          <h3>Qualified for Flipkart GRiD 8.0</h3>
+          <p>Cleared the screening round and qualified for the Flipkart GRiD 8.0 Coding Assessment.</p>
+        </div>
+      </li>
+      <li class="split reveal">
+        <span class="split-time">Now</span>
+        <div class="split-body">
+          <h3>9.04 CGPA, 1610 on LeetCode</h3>
+          <p>500+ problems solved after a year of consistent practice, still running middle-distance track, still building FinVault.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section contact-section" id="contact">
+    <p class="section-eyebrow reveal">[03] Contact</p>
+    <h2 class="contact-title reveal">Let's build something that reconciles.</h2>
+    <p class="contact-sub reveal">Open to backend and full-stack internship opportunities, based in Moradabad, Uttar Pradesh. Reach out — I read everything.</p>
+
+    <div class="contact-links reveal">
+      <a href="mailto:anantsharma.bt24mc@pec.edu.in" class="contact-link">
+        <span class="idx">[email]</span> anantsharma.bt24mc@pec.edu.in
+      </a>
+      <a href="tel:+918279992368" class="contact-link">
+        <span class="idx">[phone]</span> +91 82799 92368
+      </a>
+      <a href="https://github.com/anantsharma108" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <span class="idx">[github]</span> anantsharma108
+      </a>
+      <a href="https://linkedin.com/in/anant-sharma-234958336" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <span class="idx">[linkedin]</span> anant-sharma
+      </a>
+      <a href="https://leetcode.com/u/sharma_anant_25/" target="_blank" rel="noopener noreferrer" class="contact-link">
+        <span class="idx">[leetcode]</span> sharma_anant_25
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Designed &amp; built by Anant Sharma. <span class="mono">// closed the loop, balanced the ledger.</span></p>
+  <button id="toTop" class="to-top" aria-label="Back to top">↑</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
